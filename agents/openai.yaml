@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Pets Sprite Skill for Codex"
+  short_description: "Create sprite pets and portable animation packs"
+  default_prompt: "Use $sprite-aipets to create an AI Pet, refine its look with me, then produce its reviewed animation pack."

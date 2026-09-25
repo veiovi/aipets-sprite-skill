@@ -1,0 +1,97 @@
+{
+  "id": "aipet-core-v1",
+  "personalityMoments": [
+    "joyful",
+    "goofy",
+    "spacing-out",
+    "sweet",
+    "signature"
+  ],
+  "coreMotionRoles": [
+    "foundation/idle-breathing",
+    "states/listening",
+    "states/thinking",
+    "physical/touch-tap"
+  ],
+  "operationalStates": [
+    "booting",
+    "provisioning",
+    "connecting",
+    "offline",
+    "error"
+  ],
+  "effectRoles": [
+    "booting",
+    "provisioning",
+    "connecting",
+    "listening",
+    "thinking",
+    "touch",
+    "offline",
+    "error"
+  ],
+  "spriteSpeaking": {
+    "poseIds": [
+      "nod-half",
+      "nod",
+      "tilt-half",
+      "tilt",
+      "lean-half",
+      "lean",
+      "left-half",
+      "left",
+      "right-half",
+      "right",
+      "up",
+      "blink-half",
+      "blink"
+    ],
+    "gestures": [
+      {
+        "kind": "look-left",
+        "pose": "left",
+        "automatic": true
+      },
+      {
+        "kind": "look-right",
+        "pose": "right",
+        "automatic": true
+      },
+      {
+        "kind": "look-up",
+        "pose": "up",
+        "automatic": true
+      },
+      {
+        "kind": "blink",
+        "pose": "blink",
+        "automatic": true
+      },
+      {
+        "kind": "nod",
+        "pose": "nod"
+      },
+      {
+        "kind": "tilt",
+        "pose": "tilt"
+      },
+      {
+        "kind": "lean",
+        "pose": "lean"
+      }
+    ]
+  },
+  "formats": {
+    "sprite": {
+      "hardLimitBytes": 3000000
+    },
+    "h3": {
+      "hardLimitBytes": 12000000,
+      "warningAboveBytes": 10000000
+    }
+  },
+  "coreTarget": {
+    "minFraction": 0.8,
+    "maxFraction": 0.85
+  }
+}
