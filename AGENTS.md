@@ -47,8 +47,8 @@ only what the change affects.
   - private helpers;
   - mostly mocking this project's own modules.
 - **Run:** `node --test scripts/*.test.mjs` takes seconds, so run it for any
-  script change. Don't generate artwork or call paid services to test a change
-  unless asked.
+  script change. A change can be tested without generating artwork or calling
+  paid services.
 - **When a test fails,** read the failure, fix the cause, and rerun that file.
   Fix or delete a flaky test; don't add retries.
 - **Docs-only changes:** check the diff and the links, nothing else.
